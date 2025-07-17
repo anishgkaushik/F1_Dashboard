@@ -1,0 +1,17 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Lap Collector",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/flows/collect_lap_times.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ]
+}

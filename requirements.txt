@@ -1,0 +1,10 @@
+
+
+fastf1
+psycopg2-binary
+pandas
+prefect[dotenv]
+plotly
+dash
+python-dotenv
+sqlalchemy
